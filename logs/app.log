@@ -1,0 +1,2354 @@
+2026-03-29 11:35:10 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 11:35:13 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 11:36:41 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 11:37:11 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 11:37:33 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 11:37:33 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 12:02:20 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-29 12:21:03 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-29 14:41:04 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 14:41:04 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 15:14:08 [info]: New user registered: 69c8f468ef1d7efa0b27e60d
+2026-03-29 15:14:08 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:09:44:08 +0000] "POST /api/auth/register HTTP/1.1" 201 305 "-" "okhttp/4.12.0"
+2026-03-29 15:14:17 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:09:44:17 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 138 "-" "okhttp/4.12.0"
+2026-03-29 15:14:17 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:09:44:17 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 200 81 "-" "okhttp/4.12.0"
+2026-03-29 15:22:33 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:09:52:33 +0000] "POST /api/auth/register HTTP/1.1" 400 61 "-" "okhttp/4.12.0"
+2026-03-29 15:22:44 [info]: New user registered: 69c8f66cef1d7efa0b27e617
+2026-03-29 15:22:44 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:09:52:44 +0000] "POST /api/auth/register HTTP/1.1" 201 314 "-" "okhttp/4.12.0"
+2026-03-29 15:23:23 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774778003371_936217041.jpg
+2026-03-29 15:27:36 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 15:27:36 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 15:27:40 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774778259970_148548987.jpg
+2026-03-29 15:30:49 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 15:30:49 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 15:30:50 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774778450726_482644794.jpg
+2026-03-29 15:35:13 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 15:35:13 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 15:35:15 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774778715384_38371656.jpg
+2026-03-29 15:36:26 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 15:36:26 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 15:36:28 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774778787893_62748918.jpg
+2026-03-29 15:36:31 [error]: OCR Error:
+2026-03-29 15:36:31 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: Cloud Vision API has not been used in project 1035539553934 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/vision.googleapis.com/overview?project=1035539553934 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 15:36:31 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:10:06:31 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1183 "-" "okhttp/4.12.0"
+2026-03-29 15:37:33 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774778853006_503426000.jpg
+2026-03-29 15:37:36 [error]: OCR Error:
+2026-03-29 15:37:36 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: This API method requires billing to be enabled. Please enable billing on project #1035539553934 by visiting https://console.developers.google.com/billing/enable?project=1035539553934 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 15:37:36 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:10:07:36 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1165 "-" "okhttp/4.12.0"
+2026-03-29 15:42:15 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774779135055_644897708.jpg
+2026-03-29 15:42:18 [error]: OCR Error:
+2026-03-29 15:42:18 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: This API method requires billing to be enabled. Please enable billing on project #1035539553934 by visiting https://console.developers.google.com/billing/enable?project=1035539553934 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 15:42:18 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:10:12:18 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1165 "-" "okhttp/4.12.0"
+2026-03-29 15:42:23 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774779143001_659642884.jpg
+2026-03-29 15:42:27 [error]: OCR Error:
+2026-03-29 15:42:27 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: This API method requires billing to be enabled. Please enable billing on project #1035539553934 by visiting https://console.developers.google.com/billing/enable?project=1035539553934 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 15:42:27 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:10:12:27 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1165 "-" "okhttp/4.12.0"
+2026-03-29 15:42:39 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 15:42:39 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 15:42:42 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774779162403_994187279.jpg
+2026-03-29 15:42:46 [error]: OCR Error:
+2026-03-29 15:42:46 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: This API method requires billing to be enabled. Please enable billing on project #1035539553934 by visiting https://console.developers.google.com/billing/enable?project=1035539553934 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 15:42:46 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:10:12:46 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1165 "-" "okhttp/4.12.0"
+2026-03-29 15:48:24 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774779504614_313540538.jpg
+2026-03-29 15:48:27 [error]: OCR Error:
+2026-03-29 15:48:27 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: This API method requires billing to be enabled. Please enable billing on project #1035539553934 by visiting https://console.developers.google.com/billing/enable?project=1035539553934 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 15:48:27 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:10:18:27 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1165 "-" "okhttp/4.12.0"
+2026-03-29 15:55:52 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774779952397_232996289.jpg
+2026-03-29 15:55:55 [error]: OCR Error:
+2026-03-29 15:55:55 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: This API method requires billing to be enabled. Please enable billing on project #1035539553934 by visiting https://console.developers.google.com/billing/enable?project=1035539553934 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 15:55:55 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:10:25:55 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1165 "-" "okhttp/4.12.0"
+2026-03-29 16:12:35 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 16:12:35 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 16:13:05 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774780984844_354936146.jpg
+2026-03-29 16:13:09 [error]: OCR Error:
+2026-03-29 16:13:09 [error]: OCR Error:
+2026-03-29 16:13:09 [error]: Error: OCR processing failed: File failed validation. File size exceeds the maximum permissible file size limit of 1024 KB
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:54:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 16:13:09 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:10:43:09 +0000] "POST /api/invoices/upload HTTP/1.1" 500 632 "-" "okhttp/4.12.0"
+2026-03-29 16:14:52 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 16:14:52 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 16:14:54 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774781094065_304017787.jpg
+2026-03-29 16:14:54 [info]: Compressed image size: 157.95 KB
+2026-03-29 16:14:56 [info]: OCR: Extracted 647 chars
+2026-03-29 16:14:56 [info]: Parser: Processing 647 characters of OCR text
+2026-03-29 16:14:56 [info]: Parser: Extraction result:
+2026-03-29 16:14:56 [info]: Invoice saved: 69c902a885503c67cfe9cdf2 for user 69c8f66cef1d7efa0b27e617
+2026-03-29 16:14:56 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:10:44:56 +0000] "POST /api/invoices/upload HTTP/1.1" 201 1356 "-" "okhttp/4.12.0"
+2026-03-29 16:15:38 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774781137910_660703069.jpg
+2026-03-29 16:15:38 [info]: Compressed image size: 163.58 KB
+2026-03-29 16:15:39 [info]: OCR: Extracted 601 chars
+2026-03-29 16:15:39 [info]: Parser: Processing 601 characters of OCR text
+2026-03-29 16:15:39 [info]: Parser: Extraction result:
+2026-03-29 16:15:39 [info]: Invoice saved: 69c902d385503c67cfe9cdf5 for user 69c8f66cef1d7efa0b27e617
+2026-03-29 16:15:39 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:10:45:39 +0000] "POST /api/invoices/upload HTTP/1.1" 201 1305 "-" "okhttp/4.12.0"
+2026-03-29 16:17:02 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 16:17:02 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 16:17:19 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774781239514_120648194.jpg
+2026-03-29 16:17:19 [info]: Compressed image size: 872.14 KB
+2026-03-29 16:17:23 [info]: OCR: Extracted 646 chars
+2026-03-29 16:17:23 [info]: Parser: Processing 646 characters of OCR text
+2026-03-29 16:17:23 [info]: Parser: Extraction result:
+2026-03-29 16:17:23 [info]: Invoice saved: 69c9033b7d521ca2fed8fa09 for user 69c8f66cef1d7efa0b27e617
+2026-03-29 16:17:23 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:10:47:23 +0000] "POST /api/invoices/upload HTTP/1.1" 201 1345 "-" "okhttp/4.12.0"
+2026-03-29 16:20:26 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:10:50:26 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 16:31:37 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 16:31:37 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 16:32:03 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774782122954_199056910.jpg
+2026-03-29 16:32:03 [info]: Compressed image saved at: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774782122954_199056910_compressed_debug.jpg
+2026-03-29 16:32:03 [info]: Compressed image size: 756.22 KB
+2026-03-29 16:32:05 [info]: OCR: Extracted 289 chars
+2026-03-29 16:32:05 [info]: Parser: Processing 289 characters of OCR text
+2026-03-29 16:32:05 [info]: Parser: Extraction result:
+2026-03-29 16:32:05 [info]: Invoice saved: 69c906ad953f26e4aec3bd62 for user 69c8f66cef1d7efa0b27e617
+2026-03-29 16:32:05 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:02:05 +0000] "POST /api/invoices/upload HTTP/1.1" 201 940 "-" "okhttp/4.12.0"
+2026-03-29 16:33:14 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 16:33:14 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 16:33:36 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774782216123_881308061.jpg
+2026-03-29 16:33:36 [info]: Compressed image saved at: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774782216123_881308061_compressed_debug.jpg
+2026-03-29 16:33:36 [info]: Compressed image size: 778.93 KB
+2026-03-29 16:33:37 [info]: OCR: Extracted 650 chars
+2026-03-29 16:33:37 [info]: Parser: Processing 650 characters of OCR text
+2026-03-29 16:33:37 [info]: Parser: Extraction result:
+2026-03-29 16:33:37 [info]: Invoice saved: 69c907090c1bee470e0789b2 for user 69c8f66cef1d7efa0b27e617
+2026-03-29 16:33:37 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:03:37 +0000] "POST /api/invoices/upload HTTP/1.1" 201 1366 "-" "okhttp/4.12.0"
+2026-03-29 16:35:34 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 16:35:34 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 16:35:46 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774782345956_331049457.jpg
+2026-03-29 16:35:46 [info]: Compressed image saved at: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774782345956_331049457_compressed_debug.jpg
+2026-03-29 16:35:46 [info]: Compressed image size: 762.30 KB
+2026-03-29 16:35:49 [info]: OCR: Extracted 641 chars
+2026-03-29 16:35:49 [info]: Parser: Processing 641 characters of OCR text
+2026-03-29 16:35:49 [info]: Parser: Extraction result:
+2026-03-29 16:35:49 [info]: Invoice saved: 69c9078d976ca7c9368305bf for user 69c8f66cef1d7efa0b27e617
+2026-03-29 16:35:49 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:05:49 +0000] "POST /api/invoices/upload HTTP/1.1" 201 1349 "-" "okhttp/4.12.0"
+2026-03-29 16:42:51 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 16:42:51 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 16:43:06 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774782786276_723794464.jpg
+2026-03-29 16:43:06 [info]: Processed image saved at: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774782786276_723794464_processed.jpg
+2026-03-29 16:43:06 [info]: Processed image size: 817.63 KB
+2026-03-29 16:43:10 [info]: OCR: Extracted 503 chars
+2026-03-29 16:43:10 [info]: Parser: Processing 503 characters of OCR text
+2026-03-29 16:43:10 [info]: Parser: Extraction result:
+2026-03-29 16:43:10 [info]: Invoice saved: 69c909462ecd787f99d9eb8b for user 69c8f66cef1d7efa0b27e617
+2026-03-29 16:43:10 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:13:10 +0000] "POST /api/invoices/upload HTTP/1.1" 201 1200 "-" "okhttp/4.12.0"
+2026-03-29 16:44:47 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774782887318_782325466.jpg
+2026-03-29 16:44:47 [info]: Processed image saved at: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774782887318_782325466_processed.jpg
+2026-03-29 16:44:47 [info]: Processed image size: 233.47 KB
+2026-03-29 16:44:49 [info]: OCR: Extracted 391 chars
+2026-03-29 16:44:49 [info]: Parser: Processing 391 characters of OCR text
+2026-03-29 16:44:49 [info]: Parser: Extraction result:
+2026-03-29 16:44:49 [info]: Invoice saved: 69c909a92ecd787f99d9eb8e for user 69c8f66cef1d7efa0b27e617
+2026-03-29 16:44:49 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:14:49 +0000] "POST /api/invoices/upload HTTP/1.1" 201 1076 "-" "okhttp/4.12.0"
+2026-03-29 16:45:11 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774782911251_631027796.jpg
+2026-03-29 16:45:11 [info]: Processed image saved at: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774782911251_631027796_processed.jpg
+2026-03-29 16:45:11 [info]: Processed image size: 233.47 KB
+2026-03-29 16:45:13 [info]: OCR: Extracted 391 chars
+2026-03-29 16:45:13 [info]: Parser: Processing 391 characters of OCR text
+2026-03-29 16:45:13 [info]: Parser: Extraction result:
+2026-03-29 16:45:13 [info]: Invoice saved: 69c909c12ecd787f99d9eb91 for user 69c8f66cef1d7efa0b27e617
+2026-03-29 16:45:13 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:15:13 +0000] "POST /api/invoices/upload HTTP/1.1" 201 1076 "-" "okhttp/4.12.0"
+2026-03-29 16:50:50 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 16:50:50 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 16:51:01 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:21:01 +0000] "GET /api/auth/me HTTP/1.1" 200 314 "-" "okhttp/4.12.0"
+2026-03-29 16:51:16 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774783276836_548137415.jpg
+2026-03-29 16:51:16 [error]: Mindee OCR Error:
+2026-03-29 16:51:16 [error]: Error: OCR processing failed: mindeeClient.docFromPath is not a function
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:54:11)
+    at uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:43)
+    at Layer.handle [as handle_request] (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:49:68)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:155:11
+    at WriteStream.<anonymous> (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+    at finish (node:internal/streams/writable:955:10)
+2026-03-29 16:51:16 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:21:16 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1366 "-" "okhttp/4.12.0"
+2026-03-29 16:51:54 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 16:51:54 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 16:51:56 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774783316804_380201663.jpg
+2026-03-29 16:51:56 [error]: Mindee OCR Error:
+2026-03-29 16:51:56 [error]: Error: OCR processing failed: mindee.docFromPath is not a function
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:51:11)
+    at uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:43)
+    at Layer.handle [as handle_request] (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:49:68)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:155:11
+    at WriteStream.<anonymous> (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+    at finish (node:internal/streams/writable:955:10)
+2026-03-29 16:51:56 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:21:56 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1354 "-" "okhttp/4.12.0"
+2026-03-29 16:53:19 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 16:53:19 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 16:53:20 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774783400207_107931729.jpg
+2026-03-29 16:53:20 [error]: Mindee OCR Error:
+2026-03-29 16:53:20 [error]: Error: OCR processing failed: Cannot read properties of undefined (reading 'parametersClass')
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:51:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 16:53:20 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:23:20 +0000] "POST /api/invoices/upload HTTP/1.1" 500 574 "-" "okhttp/4.12.0"
+2026-03-29 16:55:08 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 16:55:08 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 16:55:10 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774783510571_217812436.jpg
+2026-03-29 16:55:11 [error]: Mindee OCR Error:
+2026-03-29 16:55:11 [error]: Error: OCR processing failed
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:50:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 16:55:11 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:25:11 +0000] "POST /api/invoices/upload HTTP/1.1" 500 444 "-" "okhttp/4.12.0"
+2026-03-29 16:57:36 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774783656648_477978882.jpg
+2026-03-29 16:57:37 [error]: Mindee OCR Error:
+2026-03-29 16:57:37 [error]: Error: OCR processing failed
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:50:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 16:57:37 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:27:37 +0000] "POST /api/invoices/upload HTTP/1.1" 500 444 "-" "okhttp/4.12.0"
+2026-03-29 16:58:50 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 16:58:50 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 16:58:51 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774783731235_95564779.jpg
+2026-03-29 16:58:51 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 16:58:51 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:28:51 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:02:39 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:02:39 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:02:41 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774783961712_956501386.jpg
+2026-03-29 17:02:42 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:02:42 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:32:42 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:22:35 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:22:35 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:22:37 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774785157502_270613327.jpg
+2026-03-29 17:22:38 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:22:38 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:52:38 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:22:45 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:22:45 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:22:48 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774785168753_350159010.jpg
+2026-03-29 17:22:49 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:22:49 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:52:49 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:22:58 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:22:58 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:23:22 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774785202451_985709927.jpg
+2026-03-29 17:23:22 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:23:22 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:53:22 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:23:53 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:23:53 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:23:55 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774785235217_276973255.jpg
+2026-03-29 17:23:55 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:23:55 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:53:55 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:24:04 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:24:05 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:24:05 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774785245881_599997891.jpg
+2026-03-29 17:24:06 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:24:06 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:54:06 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:24:43 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:24:43 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:24:43 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:24:43 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:24:51 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:24:51 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:24:53 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774785293740_624331486.jpg
+2026-03-29 17:24:54 [error]: AxiosError: Request failed with status code 404
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:24:54 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:54:54 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:25:11 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:25:11 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:25:12 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774785312053_210799157.jpg
+2026-03-29 17:25:12 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:25:12 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:55:12 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:25:51 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:25:51 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:25:51 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774785351833_553107119.jpg
+2026-03-29 17:25:52 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:25:52 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:55:52 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:26:11 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:26:11 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:26:11 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774785371909_504428521.jpg
+2026-03-29 17:26:12 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:26:12 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:56:12 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:28:35 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:28:35 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:28:35 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774785515892_783014938.jpg
+2026-03-29 17:28:35 [error]: Mindee OCR Error: Cannot read properties of undefined (reading 'parametersClass')
+2026-03-29 17:28:35 [error]: TypeError: Cannot read properties of undefined (reading 'parametersClass')
+    at Client.enqueueAndGetResult (file:///Users/adityayadav/Desktop/untitled%20folder/gst-invoice-app/backend/node_modules/mindee/src/v2/client.js:81:44)
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:22:41)
+    at uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:43)
+    at Layer.handle [as handle_request] (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:49:68)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:155:11
+    at WriteStream.<anonymous> (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+2026-03-29 17:28:35 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:11:58:35 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1467 "-" "okhttp/4.12.0"
+2026-03-29 17:30:42 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:30:42 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:30:44 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774785644718_78963432.jpg
+2026-03-29 17:30:45 [error]: Mindee API Error Response:
+2026-03-29 17:30:45 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:18:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:30:45 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:00:45 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:32:26 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:32:26 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:32:32 [info]: OCR: Processing image at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774785752960_919363732.jpg
+2026-03-29 17:32:33 [error]: Mindee API Error Response:
+2026-03-29 17:32:33 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:18:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:32:33 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:02:33 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:35:35 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:35:35 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:35:40 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:35:40 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:35:47 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:32:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:35:47 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:05:47 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:41:34 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:41:34 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:41:38 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:24:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:41:38 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:11:38 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:42:43 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:42:43 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:42:45 [error]: TypeError: Cannot read properties of undefined (reading 'parametersClass')
+    at Client.enqueueAndGetResult (file:///Users/adityayadav/Desktop/untitled%20folder/gst-invoice-app/backend/node_modules/mindee/src/v2/client.js:81:44)
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:16:41)
+    at uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:43)
+    at Layer.handle [as handle_request] (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:49:68)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:155:11
+    at WriteStream.<anonymous> (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+2026-03-29 17:42:45 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:12:45 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1467 "-" "okhttp/4.12.0"
+2026-03-29 17:44:23 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:44:23 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:44:26 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:53:27)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:44:26 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:14:26 +0000] "POST /api/invoices/upload HTTP/1.1" 500 1105 "-" "okhttp/4.12.0"
+2026-03-29 17:56:24 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:56:24 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:56:43 [error]: TypeError: Cannot read properties of undefined (reading 'fields')
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:44:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:56:43 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:26:43 +0000] "POST /api/invoices/upload HTTP/1.1" 500 514 "-" "okhttp/4.12.0"
+2026-03-29 17:59:05 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 17:59:05 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 17:59:16 [info]: Parser: Processing 707 characters of OCR text
+2026-03-29 17:59:16 [info]: Parser: Extraction result:
+2026-03-29 17:59:16 [info]: Invoice saved: 69c91b1cc34a2b75dea5b415 for user 69c8f66cef1d7efa0b27e617
+2026-03-29 17:59:16 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:29:16 +0000] "POST /api/invoices/upload HTTP/1.1" 201 1454 "-" "okhttp/4.12.0"
+2026-03-29 18:00:36 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 18:00:36 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 18:00:54 [info]: Parser: Processing 178 characters of OCR text
+2026-03-29 18:00:54 [info]: Parser: Extraction result:
+2026-03-29 18:00:55 [info]: Invoice saved: 69c91b7ec0d9e332ac762925 for user 69c8f66cef1d7efa0b27e617
+2026-03-29 18:00:55 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:30:55 +0000] "POST /api/invoices/upload HTTP/1.1" 201 831 "-" "okhttp/4.12.0"
+2026-03-29 18:01:19 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 18:01:19 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 18:03:56 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 18:03:56 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 18:04:08 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 18:04:08 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 18:04:15 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774787655665_372649218.jpg
+2026-03-29 18:04:23 [info]: [OCR] Mindee response received
+2026-03-29 18:04:23 [info]: [OCR] Structured extraction complete:
+2026-03-29 18:04:23 [info]: Invoice saved: 69c91c4fcfa7f3e584a8990e for user 69c8f66cef1d7efa0b27e617
+2026-03-29 18:04:23 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:34:23 +0000] "POST /api/invoices/upload HTTP/1.1" 201 810 "-" "okhttp/4.12.0"
+2026-03-29 18:07:35 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 18:07:35 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 18:07:44 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774787864362_304941794.jpg
+2026-03-29 18:07:52 [info]: [OCR] FULL RESPONSE:
+{
+  "rawHttp": {
+    "inference": {
+      "id": "cf8b5038-73b3-4952-8158-0c7777fca52c",
+      "job": {
+        "id": "cf8b5038-73b3-4952-8158-0c7777fca52c"
+      },
+      "model": {
+        "id": "0a6b0d8b-4adf-4fa6-a1f3-ea34bc3f593c"
+      },
+      "file": {
+        "name": "invoice_1774787864362_304941794.jpg",
+        "alias": null,
+        "page_count": 1,
+        "mime_type": "image/jpeg"
+      },
+      "result": {
+        "fields": {
+          "supplier_name": {
+            "locations": [],
+            "confidence": null,
+            "value": "Liquor Street"
+          },
+          "supplier_phone_number": {
+            "locations": [],
+            "confidence": null,
+            "value": "0129-4360377, 9311111116"
+          },
+          "customer_company_registration": {
+            "items": [],
+            "confidence": null
+          },
+          "supplier_company_registration": {
+            "items": [
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "number": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "06AACCO6344G1ZJ"
+                  },
+                  "type": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "GSTIN"
+                  }
+                }
+              }
+            ],
+            "confidence": null
+          },
+          "invoice_number": {
+            "locations": [],
+            "confidence": null,
+            "value": "IN001001259"
+          },
+          "date": {
+            "locations": [],
+            "confidence": null,
+            "value": "2018-05-20"
+          },
+          "total_amount": {
+            "locations": [],
+            "confidence": null,
+            "value": 1139
+          },
+          "total_net": {
+            "locations": [],
+            "confidence": null,
+            "value": 1035
+          },
+          "total_tax": {
+            "locations": [],
+            "confidence": null,
+            "value": 104
+          },
+          "taxes": {
+            "items": [
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 2.5
+                  },
+                  "base": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 25.89
+                  }
+                }
+              },
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 2.5
+                  },
+                  "base": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 25.89
+                  }
+                }
+              },
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "base": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 51.75
+                  }
+                }
+              }
+            ],
+            "confidence": null
+          },
+          "line_items": {
+            "items": [
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "description": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "Tandoori chicken"
+                  },
+                  "quantity": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 1
+                  },
+                  "unit_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 295
+                  },
+                  "total_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 309.75
+                  },
+                  "product_code": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "unit_measure": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  }
+                }
+              },
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "description": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "Lasooni Dal Tadka"
+                  },
+                  "quantity": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 1
+                  },
+                  "unit_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 275
+                  },
+                  "total_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 288.75
+                  },
+                  "product_code": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "unit_measure": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  }
+                }
+              },
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "description": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "HYDERABADI MURG BIRYANI"
+                  },
+                  "quantity": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 1
+                  },
+                  "unit_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 375
+                  },
+                  "total_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 393.75
+                  },
+                  "product_code": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "unit_measure": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  }
+                }
+              },
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "description": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "Tandoori Roti all food less spicy"
+                  },
+                  "quantity": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 2
+                  },
+                  "unit_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 30
+                  },
+                  "total_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 63
+                  },
+                  "product_code": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "unit_measure": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  }
+                }
+              },
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "description": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "Tandoori Roti"
+                  },
+                  "quantity": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 1
+                  },
+                  "unit_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 30
+                  },
+                  "total_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 31.5
+                  },
+                  "product_code": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "unit_measure": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  }
+                }
+              }
+            ],
+            "confidence": null
+          },
+          "document_type": {
+            "locations": [],
+            "confidence": null,
+            "value": "invoice"
+          },
+          "locale": {
+            "locations": [],
+            "confidence": null,
+            "fields": {
+              "language": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "country": {
+                "locations": [],
+                "confidence": null,
+                "value": "IN"
+              },
+              "currency": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              }
+            }
+          },
+          "customer_name": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          },
+          "customer_address": {
+            "locations": [],
+            "confidence": null,
+            "fields": {
+              "address": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "street_number": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "street_name": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "po_box": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "address_complement": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "city": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "postal_code": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "state": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "country": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              }
+            }
+          },
+          "shipping_address": {
+            "locations": [],
+            "confidence": null,
+            "fields": {
+              "address": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "street_number": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "street_name": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "po_box": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "address_complement": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "city": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "postal_code": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "state": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "country": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              }
+            }
+          },
+          "billing_address": {
+            "locations": [],
+            "confidence": null,
+            "fields": {
+              "address": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "street_number": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "street_name": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "po_box": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "address_complement": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "city": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "postal_code": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "state": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "country": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              }
+            }
+          },
+          "supplier_address": {
+            "locations": [],
+            "confidence": null,
+            "fields": {
+              "address": {
+                "locations": [],
+                "confidence": null,
+                "value": "11/2 Sector- 37, Faridabad-121003."
+              },
+              "street_number": {
+                "locations": [],
+                "confidence": null,
+                "value": "11/2"
+              },
+              "street_name": {
+                "locations": [],
+                "confidence": null,
+                "value": "Sector- 37"
+              },
+              "po_box": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "address_complement": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "city": {
+                "locations": [],
+                "confidence": null,
+                "value": "Faridabad"
+              },
+              "postal_code": {
+                "locations": [],
+                "confidence": null,
+                "value": "121003"
+              },
+              "state": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "country": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              }
+            }
+          },
+          "due_date": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          },
+          "po_number": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          },
+          "reference_numbers": {
+            "items": [],
+            "confidence": null
+          },
+          "payment_date": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          },
+          "supplier_payment_details": {
+            "items": [],
+            "confidence": null
+          },
+          "supplier_website": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          },
+          "supplier_email": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          },
+          "customer_id": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          }
+        },
+        "raw_text": null,
+        "rag": null
+      },
+      "active_options": {
+        "raw_text": false,
+        "polygon": false,
+        "confidence": false,
+        "rag": false,
+        "multipage_context": false,
+        "text_context": false,
+        "data_schema": {
+          "replace": false
+        }
+      }
+    }
+  },
+  "inference": {
+    "id": "cf8b5038-73b3-4952-8158-0c7777fca52c",
+    "job": {
+      "id": "cf8b5038-73b3-4952-8158-0c7777fca52c"
+    },
+    "model": {
+      "id": "0a6b0d8b-4adf-4fa6-a1f3-ea34bc3f593c"
+    },
+    "file": {
+      "name": "invoice_1774787864362_304941794.jpg",
+      "alias": null,
+      "pageCount": 1,
+      "mimeType": "image/jpeg"
+    },
+    "result": {
+      "fields": {
+        "_indentLevel": 0
+      }
+    },
+    "activeOptions": {
+      "rag": false,
+      "rawText": false,
+      "polygon": false,
+      "confidence": false,
+      "textContext": false,
+      "dataSchema": {
+        "replace": false
+      }
+    }
+  }
+}
+2026-03-29 18:07:52 [info]: [OCR] invoice_number:
+2026-03-29 18:07:52 [info]: [OCR] date:
+2026-03-29 18:07:52 [info]: [OCR] supplier_name:
+2026-03-29 18:07:52 [info]: [OCR] total_amount:
+2026-03-29 18:07:52 [info]: [OCR] FINAL STRUCTURED:
+{
+  "invoiceNumber": "IN001001259",
+  "invoiceDate": "2018-05-20",
+  "vendorName": "Liquor Street",
+  "cgst": 0,
+  "sgst": 0,
+  "igst": 0
+}
+2026-03-29 18:07:52 [info]: Invoice saved: 69c91d20d404d449b0ba2577 for user 69c8f66cef1d7efa0b27e617
+2026-03-29 18:07:52 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:37:52 +0000] "POST /api/invoices/upload HTTP/1.1" 201 810 "-" "okhttp/4.12.0"
+2026-03-29 18:09:06 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 18:09:06 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 18:09:14 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774787954856_598331867.jpg
+2026-03-29 18:09:24 [info]: [OCR] FULL RESPONSE:
+{
+  "rawHttp": {
+    "inference": {
+      "id": "311cf471-fc72-4869-9bfd-95449f4aff78",
+      "job": {
+        "id": "311cf471-fc72-4869-9bfd-95449f4aff78"
+      },
+      "model": {
+        "id": "0a6b0d8b-4adf-4fa6-a1f3-ea34bc3f593c"
+      },
+      "file": {
+        "name": "invoice_1774787954856_598331867.jpg",
+        "alias": null,
+        "page_count": 1,
+        "mime_type": "image/jpeg"
+      },
+      "result": {
+        "fields": {
+          "supplier_name": {
+            "locations": [],
+            "confidence": null,
+            "value": "Liquor Street"
+          },
+          "supplier_phone_number": {
+            "locations": [],
+            "confidence": null,
+            "value": "0129-4360377, 9311111116"
+          },
+          "customer_company_registration": {
+            "items": [],
+            "confidence": null
+          },
+          "supplier_company_registration": {
+            "items": [
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "number": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "06AACCO6344G1ZJ"
+                  },
+                  "type": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "GSTIN"
+                  }
+                }
+              }
+            ],
+            "confidence": null
+          },
+          "invoice_number": {
+            "locations": [],
+            "confidence": null,
+            "value": "IN001001259"
+          },
+          "date": {
+            "locations": [],
+            "confidence": null,
+            "value": "2018-05-20"
+          },
+          "total_amount": {
+            "locations": [],
+            "confidence": null,
+            "value": 1139
+          },
+          "total_net": {
+            "locations": [],
+            "confidence": null,
+            "value": 1035
+          },
+          "total_tax": {
+            "locations": [],
+            "confidence": null,
+            "value": 104
+          },
+          "taxes": {
+            "items": [
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 2.5
+                  },
+                  "base": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 25.89
+                  }
+                }
+              },
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 2.5
+                  },
+                  "base": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 25.89
+                  }
+                }
+              },
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "base": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 51.75
+                  }
+                }
+              }
+            ],
+            "confidence": null
+          },
+          "line_items": {
+            "items": [
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "description": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "Tandoori chicken"
+                  },
+                  "quantity": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 1
+                  },
+                  "unit_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 295
+                  },
+                  "total_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 309.75
+                  },
+                  "product_code": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "unit_measure": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  }
+                }
+              },
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "description": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "Lasooni Dal Tadka"
+                  },
+                  "quantity": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 1
+                  },
+                  "unit_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 275
+                  },
+                  "total_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 288.75
+                  },
+                  "product_code": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "unit_measure": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  }
+                }
+              },
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "description": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "HYDERABADI MURG BIRYANI"
+                  },
+                  "quantity": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 1
+                  },
+                  "unit_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 375
+                  },
+                  "total_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 393.75
+                  },
+                  "product_code": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "unit_measure": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  }
+                }
+              },
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "description": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "Tandoori Roti all food less spicy"
+                  },
+                  "quantity": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 2
+                  },
+                  "unit_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 30
+                  },
+                  "total_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 63
+                  },
+                  "product_code": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "unit_measure": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  }
+                }
+              },
+              {
+                "locations": [],
+                "confidence": null,
+                "fields": {
+                  "description": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "Tandoori Roti"
+                  },
+                  "quantity": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 1
+                  },
+                  "unit_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 30
+                  },
+                  "total_price": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": 31.5
+                  },
+                  "product_code": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_amount": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "tax_rate": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "unit_measure": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  }
+                }
+              }
+            ],
+            "confidence": null
+          },
+          "document_type": {
+            "locations": [],
+            "confidence": null,
+            "value": "invoice"
+          },
+          "locale": {
+            "locations": [],
+            "confidence": null,
+            "fields": {
+              "language": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "country": {
+                "locations": [],
+                "confidence": null,
+                "value": "IN"
+              },
+              "currency": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              }
+            }
+          },
+          "customer_name": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          },
+          "customer_address": {
+            "locations": [],
+            "confidence": null,
+            "fields": {
+              "address": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "street_number": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "street_name": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "po_box": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "address_complement": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "city": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "postal_code": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "state": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "country": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              }
+            }
+          },
+          "shipping_address": {
+            "locations": [],
+            "confidence": null,
+            "fields": {
+              "address": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "street_number": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "street_name": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "po_box": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "address_complement": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "city": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "postal_code": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "state": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "country": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              }
+            }
+          },
+          "billing_address": {
+            "locations": [],
+            "confidence": null,
+            "fields": {
+              "address": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "street_number": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "street_name": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "po_box": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "address_complement": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "city": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "postal_code": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "state": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "country": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              }
+            }
+          },
+          "supplier_address": {
+            "locations": [],
+            "confidence": null,
+            "fields": {
+              "address": {
+                "locations": [],
+                "confidence": null,
+                "value": "11/2 Sector- 37, Faridabad-121003."
+              },
+              "street_number": {
+                "locations": [],
+                "confidence": null,
+                "value": "11/2"
+              },
+              "street_name": {
+                "locations": [],
+                "confidence": null,
+                "value": "Sector- 37"
+              },
+              "po_box": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "address_complement": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "city": {
+                "locations": [],
+                "confidence": null,
+                "value": "Faridabad"
+              },
+              "postal_code": {
+                "locations": [],
+                "confidence": null,
+                "value": "121003"
+              },
+              "state": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              },
+              "country": {
+                "locations": [],
+                "confidence": null,
+                "value": null
+              }
+            }
+          },
+          "due_date": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          },
+          "po_number": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          },
+          "reference_numbers": {
+            "items": [],
+            "confidence": null
+          },
+          "payment_date": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          },
+          "supplier_payment_details": {
+            "items": [],
+            "confidence": null
+          },
+          "supplier_website": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          },
+          "supplier_email": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          },
+          "customer_id": {
+            "locations": [],
+            "confidence": null,
+            "value": null
+          }
+        },
+        "raw_text": null,
+        "rag": null
+      },
+      "active_options": {
+        "raw_text": false,
+        "polygon": false,
+        "confidence": false,
+        "rag": false,
+        "multipage_context": false,
+        "text_context": false,
+        "data_schema": {
+          "replace": false
+        }
+      }
+    }
+  },
+  "inference": {
+    "id": "311cf471-fc72-4869-9bfd-95449f4aff78",
+    "job": {
+      "id": "311cf471-fc72-4869-9bfd-95449f4aff78"
+    },
+    "model": {
+      "id": "0a6b0d8b-4adf-4fa6-a1f3-ea34bc3f593c"
+    },
+    "file": {
+      "name": "invoice_1774787954856_598331867.jpg",
+      "alias": null,
+      "pageCount": 1,
+      "mimeType": "image/jpeg"
+    },
+    "result": {
+      "fields": {
+        "_indentLevel": 0
+      }
+    },
+    "activeOptions": {
+      "rag": false,
+      "rawText": false,
+      "polygon": false,
+      "confidence": false,
+      "textContext": false,
+      "dataSchema": {
+        "replace": false
+      }
+    }
+  }
+}
+2026-03-29 18:09:24 [error]: [OCR] Error reading simple fields:
+2026-03-29 18:09:24 [info]: [OCR] FINAL STRUCTURED:
+{
+  "gstin": "06AACCO6344G1ZJ",
+  "cgst": 0,
+  "sgst": 0,
+  "igst": 0
+}
+2026-03-29 18:09:24 [info]: Invoice saved: 69c91d7c67a7056f5888716c for user 69c8f66cef1d7efa0b27e617
+2026-03-29 18:09:24 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:39:24 +0000] "POST /api/invoices/upload HTTP/1.1" 201 698 "-" "okhttp/4.12.0"
+2026-03-29 18:12:24 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-29 18:12:24 [info]: 🚀 Server running on port 5001 [development]
+2026-03-29 18:12:37 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774788157100_397045257.jpg
+2026-03-29 18:12:46 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "IN001001259",
+  "invoiceDate": "2018-05-20",
+  "vendorName": "Liquor Street",
+  "totalAmount": 1139,
+  "gstin": "06AACCO6344G1ZJ",
+  "cgst": 25.89,
+  "sgst": 25.89,
+  "igst": 51.75
+}
+2026-03-29 18:12:46 [info]: Invoice saved: 69c91e4634b1cf70c538cf8a for user 69c8f66cef1d7efa0b27e617
+2026-03-29 18:12:46 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:42:46 +0000] "POST /api/invoices/upload HTTP/1.1" 201 876 "-" "okhttp/4.12.0"
+2026-03-29 18:13:28 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774788208307_838951534.jpg
+2026-03-29 18:13:42 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "2314PBSK/23-24",
+  "invoiceDate": "2023-05-30",
+  "vendorName": "V&RO HOSPITALITY PVT LTD",
+  "totalAmount": 6226,
+  "gstin": "29AAGCV4390M1ZL",
+  "cgst": 452.5,
+  "sgst": 124.49,
+  "igst": 124.49
+}
+2026-03-29 18:13:42 [info]: Invoice saved: 69c91e7e34b1cf70c538cf8d for user 69c8f66cef1d7efa0b27e617
+2026-03-29 18:13:42 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:43:42 +0000] "POST /api/invoices/upload HTTP/1.1" 201 909 "-" "okhttp/4.12.0"
+2026-03-29 18:14:02 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:02 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 200 15612 "-" "okhttp/4.12.0"
+2026-03-29 18:14:07 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:07 +0000] "DELETE /api/invoices/69c91d20d404d449b0ba2577 HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:14:09 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:09 +0000] "DELETE /api/invoices/69c91c4fcfa7f3e584a8990e HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:14:11 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:11 +0000] "DELETE /api/invoices/69c91b7ec0d9e332ac762925 HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:14:12 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:12 +0000] "DELETE /api/invoices/69c91b1cc34a2b75dea5b415 HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:14:13 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:13 +0000] "DELETE /api/invoices/69c91d7c67a7056f5888716c HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:14:16 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:16 +0000] "DELETE /api/invoices/69c909c12ecd787f99d9eb91 HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:14:17 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:17 +0000] "DELETE /api/invoices/69c909a92ecd787f99d9eb8e HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:14:18 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:18 +0000] "DELETE /api/invoices/69c909462ecd787f99d9eb8b HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:14:18 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:18 +0000] "DELETE /api/invoices/69c9078d976ca7c9368305bf HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:14:20 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:20 +0000] "DELETE /api/invoices/69c907090c1bee470e0789b2 HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:14:21 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:21 +0000] "DELETE /api/invoices/69c906ad953f26e4aec3bd62 HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:14:22 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:22 +0000] "DELETE /api/invoices/69c9033b7d521ca2fed8fa09 HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:14:24 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:24 +0000] "DELETE /api/invoices/69c902d385503c67cfe9cdf5 HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:14:26 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:12:44:26 +0000] "DELETE /api/invoices/69c902a885503c67cfe9cdf2 HTTP/1.1" 200 44 "-" "okhttp/4.12.0"
+2026-03-29 18:31:56 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:01:56 +0000] "POST /api/auth/login HTTP/1.1" 200 314 "-" "okhttp/4.12.0"
+2026-03-29 18:32:03 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:03 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 200 1625 "-" "okhttp/4.12.0"
+2026-03-29 18:32:14 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:14 +0000] "GET /api/invoices?month=2026-03&type= HTTP/1.1" 200 81 "-" "okhttp/4.12.0"
+2026-03-29 18:32:15 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:15 +0000] "GET /api/invoices?month=2026-02&type= HTTP/1.1" 200 81 "-" "okhttp/4.12.0"
+2026-03-29 18:32:16 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:16 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 18:32:23 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:23 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 18:32:31 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:31 +0000] "GET /api/invoices?month=2026-03&type= HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 18:32:31 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:31 +0000] "GET /api/invoices?month=2026-03&type=input HTTP/1.1" 200 81 "-" "okhttp/4.12.0"
+2026-03-29 18:32:33 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:33 +0000] "GET /api/invoices?month=2026-03&type= HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 18:32:36 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:36 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 18:32:49 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:49 +0000] "GET /api/invoices/summary?month=2026-02 HTTP/1.1" 200 138 "-" "okhttp/4.12.0"
+2026-03-29 18:32:49 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:49 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 18:32:55 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:55 +0000] "GET /api/invoices?month=&type=input HTTP/1.1" 200 1625 "-" "okhttp/4.12.0"
+2026-03-29 18:32:56 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:56 +0000] "GET /api/invoices?month=2026-02&type=input HTTP/1.1" 200 81 "-" "okhttp/4.12.0"
+2026-03-29 18:32:57 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:57 +0000] "GET /api/invoices?month=2026-02&type=output HTTP/1.1" 200 81 "-" "okhttp/4.12.0"
+2026-03-29 18:32:58 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:02:58 +0000] "GET /api/invoices?month=2026-02&type= HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 18:33:00 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:03:00 +0000] "GET /api/invoices?month=2026-02&type=input HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 18:33:02 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:03:02 +0000] "GET /api/invoices?month=2026-03&type=input HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 18:33:05 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:03:05 +0000] "GET /api/invoices?month=2026-03&type= HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 18:33:06 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:03:06 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 18:52:44 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:22:44 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 18:52:46 [http]: ::ffff:192.168.1.6 - - [29/Mar/2026:13:22:46 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-03-29 19:43:55 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-29 20:02:49 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-29 20:21:12 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-29 20:23:00 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-29 20:39:18 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-29 20:58:04 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-29 21:17:05 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-29 21:24:18 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-29 21:40:44 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-29 21:58:26 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-29 22:17:04 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-29 22:24:17 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-30 13:11:41 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-30 13:11:41 [info]: 🚀 Server running on port 5001 [development]
+2026-03-30 13:15:36 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:45:36 +0000] "POST /api/auth/login HTTP/1.1" 200 314 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:15:42 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:45:42 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 138 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:15:44 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:45:44 +0000] "GET /api/reports/gst-report?month=2026-03 HTTP/1.1" 200 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:15:51 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:45:51 +0000] "GET /api/reports/gst-report?month=2026-03 HTTP/1.1" 200 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:16:48 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:46:48 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:16:57 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:46:57 +0000] "GET /api/reports/gst-report?month=2026-03 HTTP/1.1" 200 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:17:47 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:47:47 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:17:51 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:47:51 +0000] "GET /api/reports/gst-report?month=2026-03 HTTP/1.1" 200 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:18:12 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:48:12 +0000] "GET /api/reports/gst-report?month=2026-03 HTTP/1.1" 200 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:18:57 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:48:57 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 200 1625 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:20:34 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:50:34 +0000] "GET /api/invoices/summary?month=2026-02 HTTP/1.1" 200 138 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:21:58 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:51:58 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:22:00 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:52:00 +0000] "GET /api/invoices/summary?month=2026-02 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:22:01 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:52:01 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:23:30 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-30 13:23:30 [info]: 🚀 Server running on port 5001 [development]
+2026-03-30 13:24:10 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-30 13:24:10 [info]: 🚀 Server running on port 5001 [development]
+2026-03-30 13:24:15 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-30 13:24:15 [info]: 🚀 Server running on port 5001 [development]
+2026-03-30 13:24:16 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-30 13:24:16 [info]: 🚀 Server running on port 5001 [development]
+2026-03-30 13:24:19 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:54:19 +0000] "GET /api/reports/gst-report?month=2026-03 HTTP/1.1" 200 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:25:49 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:55:49 +0000] "GET /api/reports/gst-report?month=2026-03 HTTP/1.1" 200 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:28:48 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:58:48 +0000] "GET /api/auth/me HTTP/1.1" 200 314 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:28:49 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:07:58:49 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 148 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:30:19 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-30 13:30:19 [info]: 🚀 Server running on port 5001 [development]
+2026-03-30 13:30:27 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-30 13:30:27 [info]: 🚀 Server running on port 5001 [development]
+2026-03-30 13:30:41 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-30 13:30:41 [info]: 🚀 Server running on port 5001 [development]
+2026-03-30 13:30:57 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:00:57 +0000] "GET /api/invoices/summary?month=2026-02 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:30:58 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:00:58 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:45:19 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-30 13:45:19 [info]: 🚀 Server running on port 5001 [development]
+2026-03-30 13:46:38 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-30 13:46:38 [info]: 🚀 Server running on port 5001 [development]
+2026-03-30 13:46:54 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:16:54 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:46:55 [error]: ReferenceError: year is not defined
+    at getSummary (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:197:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-03-30 13:46:55 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:16:55 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 500 310 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:47:01 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:17:01 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 200 1625 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:50:53 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-30 13:50:53 [info]: 🚀 Server running on port 5001 [development]
+2026-03-30 13:51:09 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:21:09 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:51:11 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:21:11 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 210 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:51:21 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:21:21 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:52:33 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774858953278_162630707.jpg
+2026-03-30 13:52:44 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "VXWJ-13768",
+  "invoiceDate": "2026-03-21",
+  "vendorName": "amazon.in",
+  "totalAmount": 239,
+  "gstin": "AABPR7391A1ZR",
+  "cgst": 30.36,
+  "sgst": 6.1,
+  "igst": 0
+}
+2026-03-30 13:52:44 [error]: ValidationError: Invoice validation failed: gstin: Invalid GSTIN format
+    at Document.invalidate (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:3187:32)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:2980:17
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2026-03-30 13:52:44 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:22:44 +0000] "POST /api/invoices/upload HTTP/1.1" 400 50 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:53:04 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774858984841_420329445.jpg
+2026-03-30 13:53:14 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "VXWJ-13768",
+  "invoiceDate": "2026-03-21",
+  "vendorName": "amazon.in",
+  "totalAmount": 239,
+  "gstin": "AABPR7391A1ZR",
+  "cgst": 30.36,
+  "sgst": 6.1,
+  "igst": 0
+}
+2026-03-30 13:53:14 [error]: ValidationError: Invoice validation failed: gstin: Invalid GSTIN format
+    at Document.invalidate (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:3187:32)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:2980:17
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2026-03-30 13:53:14 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:23:14 +0000] "POST /api/invoices/upload HTTP/1.1" 400 50 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:54:35 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774859075241_792417471.jpg
+2026-03-30 13:54:43 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "VXWJ-13768",
+  "invoiceDate": "2026-03-21",
+  "vendorName": "SARLA RANI",
+  "totalAmount": 239,
+  "gstin": "07AABPR7391A1ZR",
+  "cgst": 30.36,
+  "sgst": 6.1,
+  "igst": 0
+}
+2026-03-30 13:54:43 [info]: Invoice saved: 69ca334b3e2ff4c616b0a311
+2026-03-30 13:54:43 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:24:43 +0000] "POST /api/invoices/upload HTTP/1.1" 201 856 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:55:14 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:25:14 +0000] "GET /api/invoices?month=&type=output HTTP/1.1" 200 816 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:55:40 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:25:40 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 13:55:41 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:25:41 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 276 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:00:20 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:30:20 +0000] "GET /api/invoices/summary?month=2026-02 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:00:21 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:30:21 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:02:15 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774859535146_153798404.jpg
+2026-03-30 14:02:23 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "FPNB-240320",
+  "invoiceDate": "2025-09-25",
+  "vendorName": "CLICKTECH RETAIL PRIVATE LIMITED",
+  "totalAmount": 51089,
+  "gstin": "27AAJCC9783E1Z7",
+  "cgst": 3889.07,
+  "sgst": 3889.07,
+  "igst": 7.55
+}
+2026-03-30 14:02:23 [info]: Invoice saved: 69ca35173e2ff4c616b0a322
+2026-03-30 14:02:23 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:32:23 +0000] "POST /api/invoices/upload HTTP/1.1" 201 924 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:02:36 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:32:36 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 200 3165 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:02:44 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:32:44 +0000] "DELETE /api/invoices/69ca35173e2ff4c616b0a322 HTTP/1.1" 200 56 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:02:53 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774859573137_63208460.jpg
+2026-03-30 14:03:01 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "FPNB-240320",
+  "invoiceDate": "2025-09-25",
+  "vendorName": "CLICKTECH RETAIL PRIVATE LIMITED",
+  "totalAmount": 51089,
+  "gstin": "AAJCC9783E1Z7",
+  "cgst": 3889.07,
+  "sgst": 3889.07,
+  "igst": 7.55
+}
+2026-03-30 14:03:01 [error]: ValidationError: Invoice validation failed: gstin: Invalid GSTIN format
+    at Document.invalidate (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:3187:32)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:2980:17
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2026-03-30 14:03:01 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:33:01 +0000] "POST /api/invoices/upload HTTP/1.1" 400 50 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:03:20 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774859599971_65250534.jpg
+2026-03-30 14:03:29 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "FPNB-240320",
+  "invoiceDate": "2025-09-25",
+  "vendorName": "CLICKTECH RETAIL PRIVATE LIMITED",
+  "totalAmount": 51089,
+  "gstin": "AAJCC9783E",
+  "cgst": 3889.07,
+  "sgst": 7.55,
+  "igst": 7.55
+}
+2026-03-30 14:03:29 [error]: ValidationError: Invoice validation failed: gstin: Invalid GSTIN format
+    at Document.invalidate (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:3187:32)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:2980:17
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2026-03-30 14:03:29 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:33:29 +0000] "POST /api/invoices/upload HTTP/1.1" 400 50 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:03:35 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774859615285_447481685.jpg
+2026-03-30 14:03:45 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "FPNB-240320",
+  "invoiceDate": "2025-09-25",
+  "vendorName": "CLICKTECH RETAIL PRIVATE LIMITED",
+  "totalAmount": 51089,
+  "gstin": "AAJCC9783E",
+  "cgst": 3889.07,
+  "sgst": 7.55,
+  "igst": 7.55
+}
+2026-03-30 14:03:45 [error]: ValidationError: Invoice validation failed: gstin: Invalid GSTIN format
+    at Document.invalidate (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:3187:32)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:2980:17
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2026-03-30 14:03:45 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:33:45 +0000] "POST /api/invoices/upload HTTP/1.1" 400 50 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:03:51 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774859631442_445904858.jpg
+2026-03-30 14:04:01 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "FPNB-24032",
+  "invoiceDate": "2025-09-25",
+  "vendorName": "CLICKTECH RETAIL PRIVATE LIMITED",
+  "totalAmount": 51089,
+  "gstin": "27AAJCC9783E1Z7",
+  "cgst": 3889.07,
+  "sgst": 3889.07,
+  "igst": 7.55
+}
+2026-03-30 14:04:01 [info]: Invoice saved: 69ca35793e2ff4c616b0a330
+2026-03-30 14:04:01 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:34:01 +0000] "POST /api/invoices/upload HTTP/1.1" 201 924 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:05:11 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:35:11 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 276 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:05:40 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:35:40 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:05:43 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:35:43 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:05:46 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:35:46 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 276 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:05:51 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:35:51 +0000] "GET /api/invoices?month=&type=output HTTP/1.1" 200 1620 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:05:52 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:35:52 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 200 3165 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:05:54 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:35:54 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 276 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:06:15 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:36:15 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:06:16 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:36:16 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:06:22 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:36:22 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:06:32 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:36:32 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:06:47 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:36:47 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:06:49 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:36:49 +0000] "GET /api/invoices/summary?month=2026-02 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:06:51 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:36:51 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:07:13 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:37:13 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:08:21 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:38:21 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:08:23 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:38:23 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:10:26 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:40:26 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:10:40 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:40:40 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:10:43 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:40:43 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:11:19 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:41:19 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:18:06 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:48:06 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:18:08 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:48:08 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:18:20 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:48:20 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 200 3165 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:21:23 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:51:23 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:21:26 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:51:26 +0000] "GET /api/invoices/summary?month=2026-02 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:21:27 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:51:27 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:21:54 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:51:54 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:23:46 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:53:46 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:24:09 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:54:09 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:29:14 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:08:59:14 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:31:45 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:01:45 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:35:11 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:05:11 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:35:19 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:05:19 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:35:22 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:05:22 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:35:41 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:05:41 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:35:47 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:05:47 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:37:12 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:07:12 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:37:19 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:07:19 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:37:24 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:07:24 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:37:25 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:07:25 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:44:50 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:14:50 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:44:50 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:14:50 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:50:58 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:20:58 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:50:59 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:20:59 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:51:00 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:21:00 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:51:06 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:21:06 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:54:53 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:24:53 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:54:56 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:24:56 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:54:57 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:24:57 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:54:59 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:24:59 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:54:59 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:24:59 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:55:01 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:25:01 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 14:58:58 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:28:58 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:01:16 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:31:16 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:01:21 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:31:21 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:05:08 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774863308001_693482243.jpg
+2026-03-30 15:05:16 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "3/T/3",
+  "invoiceDate": "2017-07-01",
+  "vendorName": "SRI KRISHNA",
+  "totalAmount": 70,
+  "gstin": "27AADFH5037M126",
+  "cgst": 5.31,
+  "sgst": 5.31,
+  "igst": 0
+}
+2026-03-30 15:05:16 [error]: ValidationError: Invoice validation failed: gstin: Invalid GSTIN format
+    at Document.invalidate (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:3187:32)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:2980:17
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2026-03-30 15:05:16 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:35:16 +0000] "POST /api/invoices/upload HTTP/1.1" 400 50 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:05:27 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774863327788_327223726.jpg
+2026-03-30 15:05:36 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "3/T/3",
+  "invoiceDate": "2017-07-01",
+  "vendorName": "SRI KRISHNA",
+  "totalAmount": 70,
+  "gstin": "27AADFH5037M1Z6",
+  "cgst": 5.31,
+  "sgst": 5.31,
+  "igst": 0
+}
+2026-03-30 15:05:36 [info]: Invoice saved: 69ca43e83e2ff4c616b0a3d7
+2026-03-30 15:05:36 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:35:36 +0000] "POST /api/invoices/upload HTTP/1.1" 201 844 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:08:43 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:38:43 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:08:54 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:38:54 +0000] "GET /api/invoices?month=&type=input HTTP/1.1" 200 2349 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:08:54 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:38:54 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 200 3889 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:08:56 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:38:56 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:08:59 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:38:59 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:09:01 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:39:01 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:09:03 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:39:03 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:10:15 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:40:15 +0000] "GET /api/invoices/summary?month=2026-02 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:10:16 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:40:16 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:10:25 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:40:25 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:10:26 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:40:26 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:10:38 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:40:38 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:10:38 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:40:38 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:10:44 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:40:44 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:11:25 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:41:25 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:11:27 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:41:27 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:11:29 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:41:29 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:11:35 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:41:35 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:11:39 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:41:39 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:11:48 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:41:48 +0000] "GET /api/invoices/summary?month=2026-02 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:11:49 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:41:49 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:14:32 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:44:32 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:14:32 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:44:32 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:15:40 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:45:40 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:15:44 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:45:44 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:15:46 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:45:46 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:15:47 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:45:47 +0000] "GET /api/reports/gst-report?month=2026-03 HTTP/1.1" 200 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:25:14 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:55:14 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:26:06 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:56:06 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:26:06 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:56:06 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:26:16 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:56:16 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 15:26:16 [http]: ::ffff:192.168.1.3 - - [30/Mar/2026:09:56:16 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-30 16:41:10 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-30 16:41:10 [info]: 🚀 Server running on port 5001 [development]

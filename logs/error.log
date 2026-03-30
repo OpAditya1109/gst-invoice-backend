@@ -1,0 +1,314 @@
+2026-03-29 15:23:23 [error]: OCR Error:
+2026-03-29 15:27:40 [error]: OCR Error:
+2026-03-29 15:30:50 [error]: OCR Error:
+2026-03-29 15:35:15 [error]: OCR Error:
+2026-03-29 15:36:31 [error]: OCR Error:
+2026-03-29 15:36:31 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: Cloud Vision API has not been used in project 1035539553934 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/vision.googleapis.com/overview?project=1035539553934 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 15:37:36 [error]: OCR Error:
+2026-03-29 15:37:36 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: This API method requires billing to be enabled. Please enable billing on project #1035539553934 by visiting https://console.developers.google.com/billing/enable?project=1035539553934 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 15:42:18 [error]: OCR Error:
+2026-03-29 15:42:18 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: This API method requires billing to be enabled. Please enable billing on project #1035539553934 by visiting https://console.developers.google.com/billing/enable?project=1035539553934 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 15:42:27 [error]: OCR Error:
+2026-03-29 15:42:27 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: This API method requires billing to be enabled. Please enable billing on project #1035539553934 by visiting https://console.developers.google.com/billing/enable?project=1035539553934 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 15:42:46 [error]: OCR Error:
+2026-03-29 15:42:46 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: This API method requires billing to be enabled. Please enable billing on project #1035539553934 by visiting https://console.developers.google.com/billing/enable?project=1035539553934 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 15:48:27 [error]: OCR Error:
+2026-03-29 15:48:27 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: This API method requires billing to be enabled. Please enable billing on project #1035539553934 by visiting https://console.developers.google.com/billing/enable?project=1035539553934 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 15:55:55 [error]: OCR Error:
+2026-03-29 15:55:55 [error]: Error: OCR processing failed: 7 PERMISSION_DENIED: This API method requires billing to be enabled. Please enable billing on project #1035539553934 by visiting https://console.developers.google.com/billing/enable?project=1035539553934 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:66:11)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 16:13:09 [error]: OCR Error:
+2026-03-29 16:13:09 [error]: OCR Error:
+2026-03-29 16:13:09 [error]: Error: OCR processing failed: File failed validation. File size exceeds the maximum permissible file size limit of 1024 KB
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:54:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 16:51:16 [error]: Mindee OCR Error:
+2026-03-29 16:51:16 [error]: Error: OCR processing failed: mindeeClient.docFromPath is not a function
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:54:11)
+    at uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:43)
+    at Layer.handle [as handle_request] (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:49:68)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:155:11
+    at WriteStream.<anonymous> (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+    at finish (node:internal/streams/writable:955:10)
+2026-03-29 16:51:56 [error]: Mindee OCR Error:
+2026-03-29 16:51:56 [error]: Error: OCR processing failed: mindee.docFromPath is not a function
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:51:11)
+    at uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:43)
+    at Layer.handle [as handle_request] (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:49:68)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:155:11
+    at WriteStream.<anonymous> (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+    at finish (node:internal/streams/writable:955:10)
+2026-03-29 16:53:20 [error]: Mindee OCR Error:
+2026-03-29 16:53:20 [error]: Error: OCR processing failed: Cannot read properties of undefined (reading 'parametersClass')
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:51:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 16:55:11 [error]: Mindee OCR Error:
+2026-03-29 16:55:11 [error]: Error: OCR processing failed
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:50:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 16:57:37 [error]: Mindee OCR Error:
+2026-03-29 16:57:37 [error]: Error: OCR processing failed
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:50:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 16:58:51 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:02:42 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:22:38 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:22:49 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:23:22 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:23:55 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:24:06 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:24:54 [error]: AxiosError: Request failed with status code 404
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:25:12 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:25:52 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:26:12 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:17:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:28:35 [error]: Mindee OCR Error: Cannot read properties of undefined (reading 'parametersClass')
+2026-03-29 17:28:35 [error]: TypeError: Cannot read properties of undefined (reading 'parametersClass')
+    at Client.enqueueAndGetResult (file:///Users/adityayadav/Desktop/untitled%20folder/gst-invoice-app/backend/node_modules/mindee/src/v2/client.js:81:44)
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:22:41)
+    at uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:43)
+    at Layer.handle [as handle_request] (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:49:68)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:155:11
+    at WriteStream.<anonymous> (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+2026-03-29 17:30:45 [error]: Mindee API Error Response:
+2026-03-29 17:30:45 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:18:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:32:33 [error]: Mindee API Error Response:
+2026-03-29 17:32:33 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:18:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:35:47 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:32:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:41:38 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:24:22)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:42:45 [error]: TypeError: Cannot read properties of undefined (reading 'parametersClass')
+    at Client.enqueueAndGetResult (file:///Users/adityayadav/Desktop/untitled%20folder/gst-invoice-app/backend/node_modules/mindee/src/v2/client.js:81:44)
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:16:41)
+    at uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:43)
+    at Layer.handle [as handle_request] (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/express/lib/router/route.js:144:13)
+    at done (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:49:68)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/lib/make-middleware.js:155:11
+    at WriteStream.<anonymous> (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/multer/storage/disk.js:43:9)
+    at WriteStream.emit (node:events:536:35)
+2026-03-29 17:44:26 [error]: AxiosError: Request failed with status code 401
+    at settle (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:1931:12)
+    at IncomingMessage.handleStreamEnd (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:3176:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/axios/dist/node/axios.cjs:4236:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:53:27)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 17:56:43 [error]: TypeError: Cannot read properties of undefined (reading 'fields')
+    at extractTextFromImage (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/services/ocrService.js:44:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async uploadInvoice (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:28:37)
+2026-03-29 18:09:24 [error]: [OCR] Error reading simple fields:
+2026-03-30 13:46:55 [error]: ReferenceError: year is not defined
+    at getSummary (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/invoiceController.js:197:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-03-30 13:52:44 [error]: ValidationError: Invoice validation failed: gstin: Invalid GSTIN format
+    at Document.invalidate (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:3187:32)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:2980:17
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2026-03-30 13:53:14 [error]: ValidationError: Invoice validation failed: gstin: Invalid GSTIN format
+    at Document.invalidate (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:3187:32)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:2980:17
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2026-03-30 14:03:01 [error]: ValidationError: Invoice validation failed: gstin: Invalid GSTIN format
+    at Document.invalidate (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:3187:32)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:2980:17
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2026-03-30 14:03:29 [error]: ValidationError: Invoice validation failed: gstin: Invalid GSTIN format
+    at Document.invalidate (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:3187:32)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:2980:17
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2026-03-30 14:03:45 [error]: ValidationError: Invoice validation failed: gstin: Invalid GSTIN format
+    at Document.invalidate (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:3187:32)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:2980:17
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2026-03-30 15:05:16 [error]: ValidationError: Invoice validation failed: gstin: Invalid GSTIN format
+    at Document.invalidate (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:3187:32)
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:2980:17
+    at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
