@@ -1,8 +1,5 @@
 /**
  * models/Invoice.js — Mongoose schema for GST Invoice
- *
- * Stores all OCR-extracted data + user edits + GST computation results.
- * Indexed by userId and date for fast dashboard queries.
  */
 
 const mongoose = require('mongoose');
@@ -17,22 +14,24 @@ const InvoiceSchema = new mongoose.Schema(
       index: true,
     },
 
-    // ── Invoice Core Fields (OCR-extracted, user-editable) ───────────────────
+    // ── Invoice Core Fields ───────────────────────────────────────────────────
     gstin: {
       type: String,
       trim: true,
       uppercase: true,
-      // GSTIN format: 2-digit state code + 10-char PAN + 1 entity + 1 Z + 1 check
-      match: [/^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z]{1}[1-9A-Z]{1}Z[0-9A-Z]{1}$/, 'Invalid GSTIN format'],
+      // ⚠️ Relaxed validation (OCR safe)
+      match: [/^[0-9A-Z]{10,15}$/, 'Invalid GSTIN format'],
     },
 
     invoiceNumber: {
       type: String,
       trim: true,
+      required: true, // ✅ important for duplicate detection
     },
 
     invoiceDate: {
       type: Date,
+      default: Date.now,
     },
 
     vendorName: {
@@ -65,7 +64,7 @@ const InvoiceSchema = new mongoose.Schema(
       min: 0,
     },
 
-    // ── Computed Fields (set by GSTService) ──────────────────────────────────
+    // ── Computed Fields ──────────────────────────────────────────────────────
     totalGst: {
       type: Number,
       default: 0,
@@ -77,7 +76,6 @@ const InvoiceSchema = new mongoose.Schema(
       default: 'unknown',
     },
 
-    // Input = purchase invoice (GST paid), Output = sale invoice (GST collected)
     invoiceType: {
       type: String,
       enum: ['input', 'output'],
@@ -91,20 +89,19 @@ const InvoiceSchema = new mongoose.Schema(
 
     // ── Image & OCR Metadata ─────────────────────────────────────────────────
     imageUrl: {
-      type: String, // relative path or cloud URL
+      type: String,
     },
 
     rawOcrText: {
-      type: String, // Full Vision API text output (for debugging/reparse)
+      type: String,
     },
 
     ocrConfidence: {
-      type: Number, // 0–1, average confidence from Vision API
+      type: Number,
       min: 0,
       max: 1,
     },
 
-    // Track if user manually edited OCR results
     isEdited: {
       type: Boolean,
       default: false,
@@ -118,16 +115,30 @@ const InvoiceSchema = new mongoose.Schema(
     },
   },
   {
-    timestamps: true, // adds createdAt, updatedAt
+    timestamps: true,
     toJSON: { virtuals: true },
   }
 );
 
-// ── Compound index for dashboard queries (user + month filter) ─────────────────
+// ── PERFORMANCE INDEXES ───────────────────────────────────────────────────────
+
+// Dashboard queries
 InvoiceSchema.index({ userId: 1, invoiceDate: -1 });
 InvoiceSchema.index({ userId: 1, invoiceType: 1, invoiceDate: -1 });
 
-// ── Virtual: formatted month string for grouping ───────────────────────────────
+// 🔥 Duplicate protection (PRODUCTION SAFE)
+InvoiceSchema.index(
+  { userId: 1, invoiceNumber: 1, gstin: 1 },
+  {
+    unique: true,
+    partialFilterExpression: { isDeleted: false },
+  }
+);
+
+// ⚡ Fast duplicate lookup
+InvoiceSchema.index({ gstin: 1, invoiceNumber: 1 });
+
+// ── VIRTUALS ──────────────────────────────────────────────────────────────────
 InvoiceSchema.virtual('monthYear').get(function () {
   if (!this.invoiceDate) return null;
   const d = new Date(this.invoiceDate);

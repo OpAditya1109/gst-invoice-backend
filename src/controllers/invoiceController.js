@@ -21,8 +21,60 @@ const uploadInvoice = async (req, res, next) => {
     const { rawText, confidence, structured } = await extractTextFromImage(imagePath);
 
     const invoiceType = req.body.invoiceType || 'input';
-    const parsedData = mapMindeeToInvoice(structured);
+    let parsedData = mapMindeeToInvoice(structured);
 
+    // 🔧 Normalize data
+    parsedData.invoiceNumber = parsedData.invoiceNumber?.trim().toUpperCase();
+    parsedData.gstin = parsedData.gstin?.trim().toUpperCase();
+
+    // ❌ Validation
+    if (!parsedData.invoiceNumber) {
+      return res.status(400).json({
+        success: false,
+        message: 'Invoice number is required',
+      });
+    }
+
+    // 🧠 Clean GSTIN
+    if (!parsedData.gstin || parsedData.gstin.length < 10) {
+      parsedData.gstin = null;
+    }
+
+    // 🛡️ Safe date handling (FIXED BUG)
+    const invoiceDate = parsedData.invoiceDate || new Date();
+
+    // 🔍 DUPLICATE CHECK (FIXED LOGIC)
+    const query = {
+      userId: req.user.id,
+      invoiceNumber: parsedData.invoiceNumber,
+      totalAmount: parsedData.totalAmount,
+      invoiceType,
+    };
+
+    if (parsedData.gstin) {
+      query.gstin = parsedData.gstin;
+    }
+
+    const existingInvoice = await Invoice.findOne({
+      ...query,
+      invoiceDate: {
+        $gte: new Date(invoiceDate.getTime() - 24 * 60 * 60 * 1000),
+        $lte: new Date(invoiceDate.getTime() + 24 * 60 * 60 * 1000),
+      },
+    });
+
+    if (existingInvoice) {
+      logger.warn(`Duplicate invoice attempt: ${parsedData.invoiceNumber}`);
+
+      return res.status(409).json({
+        success: false,
+        message: 'Duplicate invoice detected ⚠️',
+        duplicate: true,
+        existingInvoiceId: existingInvoice._id,
+      });
+    }
+
+    // 🧮 GST Calculation
     const gstCalc = calculateGST({ ...parsedData, invoiceType });
 
     const invoice = new Invoice({
@@ -135,13 +187,10 @@ const getSummary = async (req, res, next) => {
 
     let year, mon;
 
-    const filter = {
-      userId: req.user.id,
-    };
+    const filter = { userId: req.user.id };
 
     if (month) {
       [year, mon] = month.split('-').map(Number);
-
       filter.invoiceDate = {
         $gte: new Date(year, mon - 1, 1),
         $lt: new Date(year, mon, 1),
@@ -151,7 +200,6 @@ const getSummary = async (req, res, next) => {
     const invoices = await Invoice.find(filter).lean();
     const summary = calculateMonthlySummary(invoices);
 
-    // reusable date filter
     const dateFilter = month
       ? {
           invoiceDate: {
