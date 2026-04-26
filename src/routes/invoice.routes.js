@@ -14,7 +14,7 @@ const {
   editInvoice,
   deleteInvoice,
 } = require('../controllers/invoiceController');
-
+const { checkScanLimit } = require('../controllers/planController');
 const router = express.Router();
 
 // Ensure uploads directory exists
@@ -49,8 +49,12 @@ const upload = multer({
 // ─── Routes (all protected) ───────────────────────────────────────────────────
 router.use(protect); // All invoice routes require authentication
 
-router.post('/upload', upload.single('invoice'), uploadInvoice);
-router.get('/', getInvoices);
+router.post(
+  '/upload',
+  checkScanLimit,           // 🔥 ADD THIS
+  upload.single('invoice'),
+  uploadInvoice
+);router.get('/', getInvoices);
 router.get('/summary', getSummary);
 router.put('/:id', editInvoice);
 router.delete('/:id', deleteInvoice);

@@ -17,7 +17,7 @@ const invoiceRoutes = require('./routes/invoice.routes');
 const authRoutes = require('./routes/auth.routes');
 const errorHandler = require('./middleware/errorHandler');
 const logger = require('./utils/logger');
-
+const planRoutes = require('./routes/planroutes.js');
 const app = express();
 app.set('trust proxy', 1);
 
@@ -58,6 +58,7 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 app.use('/api/reports', reportRoutes);
+app.use('/api/plans', planRoutes);
 // ─── 404 Handler ──────────────────────────────────────────────────────────────
 app.use((req, res) => {
   res.status(404).json({ success: false, message: 'Route not found' });

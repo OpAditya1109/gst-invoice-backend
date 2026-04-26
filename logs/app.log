@@ -2380,3 +2380,413 @@
 2026-03-31 13:28:53 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:07:58:53 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
 2026-03-31 13:29:48 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:07:59:48 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
 2026-03-31 13:29:54 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:07:59:54 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:10:30 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 18:10:30 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 18:12:38 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:12:42:38 +0000] "GET /api/auth/me HTTP/1.1" 200 335 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:12:38 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:12:42:38 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:15:12 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:12:45:12 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:15:12 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:12:45:12 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:15:19 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:12:45:19 +0000] "POST /api/plans/subscribe HTTP/1.1" 404 45 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:15:39 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:12:45:39 +0000] "POST /api/plans/subscribe HTTP/1.1" 404 45 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:36:58 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 18:36:58 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 18:37:03 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:07:03 +0000] "POST /api/plans/subscribe HTTP/1.1" 404 45 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:37:35 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:07:35 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:37:36 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:07:36 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:37:42 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:07:42 +0000] "POST /api/plans/subscribe HTTP/1.1" 404 45 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:37:51 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:07:51 +0000] "POST /api/plans/subscribe HTTP/1.1" 404 45 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:39:43 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:09:43 +0000] "POST /api/api/plans/subscribe HTTP/1.1" 404 45 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:40:59 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 18:40:59 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 18:41:05 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:11:05 +0000] "POST /api/api/plans/subscribe HTTP/1.1" 404 45 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:41:21 [info]: User 69c8f66cef1d7efa0b27e617 subscribed to plan: starter
+2026-03-31 18:41:21 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:11:21 +0000] "POST /api/plans/subscribe HTTP/1.1" 200 320 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:41:24 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:11:24 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:41:47 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:11:47 +0000] "POST /api/plans/subscribe HTTP/1.1" 400 65 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:41:58 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:11:58 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:42:23 [info]: User 69c8f66cef1d7efa0b27e617 subscribed to plan: pro
+2026-03-31 18:42:23 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:12:23 +0000] "POST /api/plans/subscribe HTTP/1.1" 200 305 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:42:25 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:12:25 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:44:49 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:14:49 +0000] "GET /api/auth/me HTTP/1.1" 200 356 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:44:50 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:14:50 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:45:01 [info]: User 69c8f66cef1d7efa0b27e617 subscribed to plan: starter
+2026-03-31 18:45:01 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:15:01 +0000] "POST /api/plans/subscribe HTTP/1.1" 200 320 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:45:03 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:15:03 +0000] "POST /api/plans/subscribe HTTP/1.1" 400 65 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:49:28 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:19:28 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:54:25 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:24:25 +0000] "GET /api/auth/me HTTP/1.1" 200 360 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:54:25 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:24:25 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:54:40 [info]: User 69c8f66cef1d7efa0b27e617 subscribed to plan: pro
+2026-03-31 18:54:40 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:24:40 +0000] "POST /api/plans/subscribe HTTP/1.1" 200 305 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:55:07 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:25:07 +0000] "GET /api/auth/me HTTP/1.1" 200 356 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:55:07 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:25:07 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:55:35 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:25:35 +0000] "GET /api/auth/me HTTP/1.1" 200 357 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 18:55:35 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:25:35 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:00:30 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:30:30 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:00:57 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:30:57 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:00:57 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:30:57 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:06:19 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:36:19 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:06:19 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:36:19 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:13:35 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 19:13:35 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 19:13:51 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 19:13:51 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 19:13:58 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 19:13:58 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 19:15:07 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:45:07 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:16:08 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774964768621_378978611.jpg
+2026-03-31 19:16:36 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "IN001001259",
+  "invoiceDate": "2018-05-20",
+  "vendorName": "Liquor Street",
+  "totalAmount": 1139,
+  "gstin": "06AACCO6344G1ZJ",
+  "cgst": 25.89,
+  "sgst": 25.89,
+  "igst": 51.75
+}
+2026-03-31 19:16:36 [warn]: Duplicate invoice attempt: IN001001259
+2026-03-31 19:16:36 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:46:36 +0000] "POST /api/invoices/upload HTTP/1.1" 409 127 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:17:09 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774964829164_275119750.jpg
+2026-03-31 19:17:25 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "42668",
+  "invoiceDate": "2017-07-01",
+  "vendorName": "JBV",
+  "totalAmount": 94,
+  "gstin": null,
+  "cgst": 5.04,
+  "sgst": 5.04,
+  "igst": 0
+}
+2026-03-31 19:17:25 [info]: Invoice saved: 69cbd06d9f14b8c4cc9b0999
+2026-03-31 19:17:25 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:47:25 +0000] "POST /api/invoices/upload HTTP/1.1" 201 801 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:17:26 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:47:26 +0000] "GET /api/invoices/summary HTTP/1.1" 200 289 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:18:21 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774964901318_157141931.jpg
+2026-03-31 19:18:33 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "17658",
+  "invoiceDate": "2024-08-15",
+  "vendorName": "AMBROCIA`S RESTAURANT",
+  "totalAmount": 305,
+  "gstin": "33ABJFM149Q1Z",
+  "cgst": 7.25,
+  "sgst": 7.25,
+  "igst": 0
+}
+2026-03-31 19:18:33 [info]: Invoice saved: 69cbd0b19f14b8c4cc9b09a1
+2026-03-31 19:18:33 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:48:33 +0000] "POST /api/invoices/upload HTTP/1.1" 201 861 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:18:33 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:48:33 +0000] "GET /api/invoices/summary HTTP/1.1" 200 290 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:19:03 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:49:03 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:19:08 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:49:08 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 200 7572 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:19:39 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:49:39 +0000] "DELETE /api/invoices/69cbd06d9f14b8c4cc9b0999 HTTP/1.1" 200 56 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:19:41 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:49:41 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:19:41 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:49:41 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:19:54 [info]: [OCR] Processing image: /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/uploads/invoice_1774964994137_789763527.jpg
+2026-03-31 19:20:03 [info]: [OCR] FINAL OUTPUT:
+{
+  "invoiceNumber": "17856",
+  "invoiceDate": "2024-08-15",
+  "vendorName": "AMBROCIA'S RESTAURANT",
+  "totalAmount": 305,
+  "gstin": "33ABIFM149Q1Z",
+  "cgst": 7.25,
+  "sgst": 7.25,
+  "igst": 0
+}
+2026-03-31 19:20:04 [info]: Invoice saved: 69cbd10b9f14b8c4cc9b09b7
+2026-03-31 19:20:04 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:50:04 +0000] "POST /api/invoices/upload HTTP/1.1" 201 861 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:20:04 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:50:04 +0000] "GET /api/invoices/summary HTTP/1.1" 200 279 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:20:33 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:50:33 +0000] "PUT /api/invoices/69cbd10b9f14b8c4cc9b09b7 HTTP/1.1" 200 845 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:20:38 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:50:38 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:21:10 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:13:51:10 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:26:48 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 19:26:48 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 19:27:26 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 19:27:26 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 19:30:47 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 19:30:47 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 19:30:50 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 19:30:50 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 19:33:49 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 19:33:49 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 19:34:42 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 19:34:42 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 19:35:04 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:05:04 +0000] "GET /api/auth/me HTTP/1.1" 200 357 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:35:04 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:05:04 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:35:07 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:05:07 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:35:08 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:05:08 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 200 7631 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:35:13 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:05:13 +0000] "DELETE /api/invoices/69cbd0b19f14b8c4cc9b09a1 HTTP/1.1" 200 56 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:35:14 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:05:14 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:35:33 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:05:33 +0000] "POST /api/invoices/upload HTTP/1.1" 403 81 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 19:38:16 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 19:38:16 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 20:01:10 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:31:10 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:01:10 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:31:10 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:01:27 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:31:27 +0000] "POST /api/invoices/upload HTTP/1.1" 403 103 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:01:33 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:31:33 +0000] "POST /api/invoices/upload HTTP/1.1" 403 103 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:03:52 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 20:03:52 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 20:04:38 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:34:38 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:04:38 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:34:38 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:04:46 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:34:46 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:04:48 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:34:48 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:04:51 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:34:51 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:11:14 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:41:14 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:11:14 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:41:14 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:11:27 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:41:27 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:11:31 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:41:31 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:11:32 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:41:32 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:11:32 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:41:32 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:11:36 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:41:36 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:11:44 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:41:44 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:16:14 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:46:14 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:22:53 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 20:22:53 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 20:22:57 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:52:57 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:26:33 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:56:33 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:26:56 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:14:56:56 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:30:20 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:00:20 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:33:22 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:03:22 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:33:23 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:03:23 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:33:28 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:03:28 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:33:54 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:03:54 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:36:10 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:06:10 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:36:11 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:06:11 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:36:37 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:06:37 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:36:39 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:06:39 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:37:09 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:07:09 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:37:10 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:07:10 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:37:13 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:07:13 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:37:15 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:07:15 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:37:19 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:07:19 +0000] "POST /api/invoices/upload HTTP/1.1" 403 131 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:55:31 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:25:31 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:55:52 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:25:52 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:58:19 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-03-31 20:58:19 [info]: 🚀 Server running on port 5001 [development]
+2026-03-31 20:59:26 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:29:26 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:59:26 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:29:26 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:59:31 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:29:31 +0000] "POST /api/invoices/upload HTTP/1.1" 403 103 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 20:59:36 [http]: ::ffff:192.168.1.3 - - [31/Mar/2026:15:29:36 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-03-31 21:15:16 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-03-31 21:32:15 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-04-01 11:36:51 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-01 11:36:51 [info]: 🚀 Server running on port 5001 [development]
+2026-04-01 11:37:45 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:07:45 +0000] "GET /api/auth/me HTTP/1.1" 200 357 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:37:46 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:07:46 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 200 138 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:39:10 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:09:10 +0000] "POST /api/invoices/upload HTTP/1.1" 403 103 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:41:43 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-01 11:41:43 [info]: 🚀 Server running on port 5001 [development]
+2026-04-01 11:41:47 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-01 11:41:47 [info]: 🚀 Server running on port 5001 [development]
+2026-04-01 11:41:54 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-01 11:41:54 [info]: 🚀 Server running on port 5001 [development]
+2026-04-01 11:42:07 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-01 11:42:07 [info]: 🚀 Server running on port 5001 [development]
+2026-04-01 11:42:20 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:12:20 +0000] "POST /api/invoices/upload HTTP/1.1" 403 122 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:42:22 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:12:22 +0000] "POST /api/invoices/upload HTTP/1.1" 403 122 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:45:59 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:15:59 +0000] "POST /api/invoices/upload HTTP/1.1" 403 122 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:50:21 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:20:21 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:50:43 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:20:43 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:50:44 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:20:44 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:51:13 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:21:13 +0000] "POST /api/invoices/upload HTTP/1.1" 403 122 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:51:17 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:21:17 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:51:47 [http]: ::ffff:192.168.1.4 - - [01/Apr/2026:06:21:47 +0000] "POST /api/auth/login HTTP/1.1" 200 314 "-" "okhttp/4.12.0"
+2026-04-01 11:51:47 [http]: ::ffff:192.168.1.4 - - [01/Apr/2026:06:21:47 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 200 138 "-" "okhttp/4.12.0"
+2026-04-01 11:51:57 [http]: ::ffff:192.168.1.4 - - [01/Apr/2026:06:21:57 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2026-04-01 11:52:32 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:22:32 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:52:32 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:22:32 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:52:51 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:22:51 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:52:51 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:22:51 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:53:17 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:23:17 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:53:17 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:23:17 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:54:25 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-01 11:54:25 [info]: 🚀 Server running on port 5001 [development]
+2026-04-01 11:55:07 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:25:07 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:55:07 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:25:07 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:55:11 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:25:11 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:55:15 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:25:15 +0000] "GET /api/invoices/summary?month=2026-03 HTTP/1.1" 200 281 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:55:17 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:25:17 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 11:56:52 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:26:52 +0000] "POST /api/invoices/upload HTTP/1.1" 403 103 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:01:37 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-01 12:01:37 [info]: 🚀 Server running on port 5001 [development]
+2026-04-01 12:02:27 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:32:27 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:02:27 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:32:27 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:02:39 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:32:39 +0000] "POST /api/invoices/upload HTTP/1.1" 403 103 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:03:09 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:33:09 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:03:09 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:33:09 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:10:26 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:40:26 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:10:26 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:40:26 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:15:11 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:45:11 +0000] "POST /api/invoices/upload HTTP/1.1" 403 103 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:16:25 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:46:25 +0000] "POST /api/invoices/upload HTTP/1.1" 403 103 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:17:31 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-01 12:17:31 [info]: 🚀 Server running on port 5001 [development]
+2026-04-01 12:17:36 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:06:47:36 +0000] "POST /api/invoices/upload HTTP/1.1" 403 132 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:20:10 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-01 12:20:10 [info]: 🚀 Server running on port 5001 [development]
+2026-04-01 12:20:13 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-01 12:20:13 [info]: 🚀 Server running on port 5001 [development]
+2026-04-01 12:21:08 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-01 12:21:08 [info]: 🚀 Server running on port 5001 [development]
+2026-04-01 12:21:10 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-01 12:21:10 [info]: 🚀 Server running on port 5001 [development]
+2026-04-01 12:30:49 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:00:49 +0000] "POST /api/invoices/upload HTTP/1.1" 403 150 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:31:28 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:01:28 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:31:28 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:01:28 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:31:48 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:01:48 +0000] "POST /api/invoices/upload HTTP/1.1" 403 150 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:31:59 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:01:59 +0000] "POST /api/invoices/upload HTTP/1.1" 403 150 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:33:12 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:03:12 +0000] "POST /api/invoices/upload HTTP/1.1" 403 150 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:34:34 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:04:34 +0000] "POST /api/invoices/upload HTTP/1.1" 403 150 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:34:59 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:04:59 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:34:59 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:04:59 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:35:12 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:05:12 +0000] "POST /api/invoices/upload HTTP/1.1" 403 150 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:35:21 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:05:21 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:37:03 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:07:03 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:37:03 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:07:03 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:37:26 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:07:26 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:37:26 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:07:26 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:37:56 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:07:56 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:37:56 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:07:56 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:39:49 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:09:49 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 12:39:49 [http]: ::ffff:192.168.1.8 - - [01/Apr/2026:07:09:49 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-01 13:06:36 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-04-01 15:30:48 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-04-01 16:24:09 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-04-02 12:38:06 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 12:38:06 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 12:38:26 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:07:08:26 +0000] "GET /api/auth/me HTTP/1.1" 200 357 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 12:38:26 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:07:08:26 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 200 138 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 12:38:35 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:07:08:35 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 12:38:47 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:07:08:47 +0000] "POST /api/auth/login HTTP/1.1" 200 314 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 12:38:48 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:07:08:48 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 13:08:25 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 13:08:25 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 13:08:54 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 13:08:54 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 13:09:06 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 13:09:06 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 13:09:17 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 13:09:17 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 13:22:21 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 13:22:21 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 13:22:25 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 13:22:25 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 13:37:50 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 13:37:50 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 13:38:15 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:08:08:15 +0000] "POST /api/auth/login HTTP/1.1" 200 314 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 13:38:15 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:08:08:15 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 13:40:00 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:08:10:00 +0000] "POST /api/auth/login HTTP/1.1" 200 314 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 13:40:00 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:08:10:00 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 13:40:02 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:08:10:02 +0000] "POST /api/auth/device-token HTTP/1.1" 200 47 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 13:56:23 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-04-02 14:11:08 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-04-02 14:42:04 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 14:42:04 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 14:42:43 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 14:42:43 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 14:43:15 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 14:43:15 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 14:43:17 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 14:43:17 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 14:43:46 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 14:43:46 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 14:46:07 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 14:46:07 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 14:47:01 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 14:47:01 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 14:50:52 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 14:50:52 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 14:51:16 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:09:21:16 +0000] "GET /api/auth/me HTTP/1.1" 200 415 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 14:51:17 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:09:21:17 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 14:51:30 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:09:21:30 +0000] "POST /api/auth/login HTTP/1.1" 200 314 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 14:51:30 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:09:21:30 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 14:51:30 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:09:21:30 +0000] "POST /api/auth/device-token HTTP/1.1" 200 47 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 15:23:24 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 15:23:24 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 15:25:38 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:09:55:38 +0000] "GET /api/auth/me HTTP/1.1" 200 415 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 15:25:39 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:09:55:39 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 15:47:55 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:17:55 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 15:47:55 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:17:55 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 15:48:02 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:18:02 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 15:48:18 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:18:18 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 15:48:19 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:18:19 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 15:48:26 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:18:26 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 15:48:30 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:18:30 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 16:00:17 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:30:17 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 16:00:30 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:30:30 +0000] "GET /api/auth/me HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 16:00:30 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:30:30 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 16:00:51 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:30:51 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 16:01:08 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:31:08 +0000] "POST /api/auth/login HTTP/1.1" 200 314 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 16:01:08 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:31:08 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 16:01:09 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:10:31:09 +0000] "POST /api/auth/device-token HTTP/1.1" 200 47 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 19:15:02 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-02 19:15:02 [info]: 🚀 Server running on port 5001 [development]
+2026-04-02 19:45:11 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:15:11 +0000] "POST /api/auth/login HTTP/1.1" 400 62 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 19:45:18 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:15:18 +0000] "POST /api/auth/login HTTP/1.1" 400 62 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 19:47:45 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:17:45 +0000] "POST /api/auth/login HTTP/1.1" 200 314 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 19:47:45 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:17:45 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 19:47:46 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:17:46 +0000] "POST /api/auth/device-token HTTP/1.1" 200 47 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:15:00 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:45:00 +0000] "POST /api/auth/login HTTP/1.1" 401 49 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:16:26 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:46:26 +0000] "POST /api/auth/register HTTP/1.1" 400 63 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:16:51 [info]: New user registered: 69ce815b74bc1a4c1c62d7cb
+2026-04-02 20:16:51 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:46:51 +0000] "POST /api/auth/register HTTP/1.1" 201 364 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:16:51 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:46:51 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:18:08 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:48:08 +0000] "POST /api/auth/login HTTP/1.1" 200 332 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:18:08 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:48:08 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:18:08 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:48:08 +0000] "POST /api/auth/device-token HTTP/1.1" 200 47 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:18:24 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:48:24 +0000] "POST /api/auth/login HTTP/1.1" 401 49 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:21:46 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:51:46 +0000] "POST /api/auth/register HTTP/1.1" 400 63 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:23:55 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:53:55 +0000] "POST /api/auth/login HTTP/1.1" 401 49 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:24:03 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:54:03 +0000] "POST /api/auth/login HTTP/1.1" 200 364 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:24:04 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:54:04 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:24:04 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:54:04 +0000] "POST /api/auth/device-token HTTP/1.1" 200 47 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:24:09 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:54:09 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:24:10 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:54:10 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 200 81 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:24:11 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:54:11 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:25:45 [info]: New user registered: 69ce837174bc1a4c1c62d7fd
+2026-04-02 20:25:45 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:55:45 +0000] "POST /api/auth/register HTTP/1.1" 201 362 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:25:46 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:55:46 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:26:22 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:56:22 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:26:31 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:56:31 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:26:32 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:56:32 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:26:37 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:56:37 +0000] "GET /api/invoices?month=&type= HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:26:40 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:56:40 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:26:41 [http]: ::ffff:192.168.1.8 - - [02/Apr/2026:14:56:41 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-02 20:47:26 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-04-24 12:04:58 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-24 12:04:58 [info]: 🚀 Server running on port 5001 [development]
+2026-04-24 12:08:56 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-24 12:08:56 [info]: 🚀 Server running on port 5001 [development]
+2026-04-24 12:11:32 [error]: ReferenceError: newReferCode is not defined
+    at register (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/authController.js:58:66)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-24 12:11:32 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:41:32 +0000] "POST /api/auth/register HTTP/1.1" 500 320 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:11:40 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:41:40 +0000] "POST /api/auth/register HTTP/1.1" 400 63 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:12:03 [error]: ReferenceError: newReferCode is not defined
+    at register (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/authController.js:58:66)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-24 12:12:03 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:42:03 +0000] "POST /api/auth/register HTTP/1.1" 500 320 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:12:50 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:42:50 +0000] "POST /api/auth/register HTTP/1.1" 400 63 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:13:36 [info]: ✅ MongoDB connected: ac-dg4flyu-shard-00-00.ceqvmzx.mongodb.net
+2026-04-24 12:13:36 [info]: 🚀 Server running on port 5001 [development]
+2026-04-24 12:13:48 [info]: New user registered: 69eb1124f6594740c6ae7278 | referCode: ADITYA
+2026-04-24 12:13:48 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:43:48 +0000] "POST /api/auth/register HTTP/1.1" 201 370 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:13:48 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:43:48 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 200 138 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:14:12 [info]: Password reset OTP sent to aditya8yadav8@gmail.com
+2026-04-24 12:14:12 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:44:12 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 79 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:14:52 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:44:52 +0000] "POST /api/auth/verify-otp HTTP/1.1" 200 227 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:15:12 [info]: Password reset for user: 69eb1124f6594740c6ae7278
+2026-04-24 12:15:12 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:45:12 +0000] "POST /api/auth/reset-password HTTP/1.1" 200 77 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:15:26 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:45:26 +0000] "POST /api/auth/login HTTP/1.1" 200 370 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:15:26 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:45:26 +0000] "GET /api/invoices/summary?month=2026-04 HTTP/1.1" 304 - "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:15:27 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:45:27 +0000] "POST /api/auth/device-token HTTP/1.1" 200 47 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:19:12 [info]: Password reset OTP sent to aditya8yadav8@gmail.com
+2026-04-24 12:19:12 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:49:12 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 79 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:19:31 [info]: Password reset OTP sent to aditya8yadav8@gmail.com
+2026-04-24 12:19:31 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:49:31 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 79 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:20:09 [info]: Password reset OTP sent to aditya8yadav8@gmail.com
+2026-04-24 12:20:09 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:50:09 +0000] "POST /api/auth/forgot-password HTTP/1.1" 200 79 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:20:19 [http]: ::ffff:192.168.1.8 - - [24/Apr/2026:06:50:19 +0000] "POST /api/auth/verify-otp HTTP/1.1" 200 227 "-" "Expo/1017756 CFNetwork/3860.300.31 Darwin/25.2.0"
+2026-04-24 12:41:26 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-04-24 12:51:04 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-04-24 13:05:07 [warn]: MongoDB disconnected. Attempting to reconnect...

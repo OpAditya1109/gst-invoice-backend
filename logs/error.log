@@ -312,3 +312,9 @@
     at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/document.js:2980:17
     at /Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/node_modules/mongoose/lib/schemaType.js:1368:9
     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2026-04-24 12:11:32 [error]: ReferenceError: newReferCode is not defined
+    at register (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/authController.js:58:66)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-04-24 12:12:03 [error]: ReferenceError: newReferCode is not defined
+    at register (/Users/adityayadav/Desktop/untitled folder/gst-invoice-app/backend/src/controllers/authController.js:58:66)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

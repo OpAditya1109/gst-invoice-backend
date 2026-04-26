@@ -8,6 +8,9 @@ const { calculateGST, calculateMonthlySummary } = require('../services/gstCalcul
 const mongoose = require('mongoose');
 const logger = require('../utils/logger');
 const fs = require('fs');
+const User = require('../models/User'); // add at top of file
+const trackEvent = require('../utils/trackEvent');
+
 
 // ─── POST /api/invoices/upload ─────────────────────────────────────────────────
 const uploadInvoice = async (req, res, next) => {
@@ -66,6 +69,9 @@ const uploadInvoice = async (req, res, next) => {
     if (existingInvoice) {
       logger.warn(`Duplicate invoice attempt: ${parsedData.invoiceNumber}`);
 
+await trackEvent(req.user.id, "duplicate_invoice_attempt", {
+  invoiceNumber: parsedData.invoiceNumber,
+});
       return res.status(409).json({
         success: false,
         message: 'Duplicate invoice detected ⚠️',
@@ -89,6 +95,19 @@ const uploadInvoice = async (req, res, next) => {
 
     await invoice.save();
     logger.info(`Invoice saved: ${invoice._id}`);
+     trackEvent(req.user.id, "invoice_uploaded", {
+  amount: invoice.totalAmount,
+  gst: invoice.totalGst,
+  type: invoice.invoiceType,
+}).catch(() => {});
+const user = await User.findById(req.user.id);
+
+await user.resetScansIfNeeded();
+user.monthlyScansUsed += 1;
+await user.save();
+trackEvent(req.user.id, "scan_used", {
+  scansUsed: user.monthlyScansUsed,
+}).catch(() => {});
 
     res.status(201).json({
       success: true,
@@ -164,7 +183,7 @@ const getInvoices = async (req, res, next) => {
         .lean(),
       Invoice.countDocuments(filter),
     ]);
-
+trackEvent(req.user.id, "invoice_list_viewed").catch(() => {});
     res.json({
       success: true,
       data: invoices,
@@ -225,7 +244,9 @@ const getSummary = async (req, res, next) => {
         },
       },
     ]);
-
+ trackEvent(req.user.id, "summary_viewed", {
+  month: month || "all",
+}).catch(() => {});
     res.json({
       success: true,
       data: {
@@ -290,7 +311,9 @@ const editInvoice = async (req, res, next) => {
     if (!invoice) {
       return res.status(404).json({ success: false, message: 'Invoice not found' });
     }
-
+trackEvent(req.user.id, "invoice_edited", {
+  invoiceId: id,
+}).catch(() => {});
     res.json({
       success: true,
       message: 'Invoice updated',
@@ -312,7 +335,9 @@ const deleteInvoice = async (req, res, next) => {
     if (!invoice) {
       return res.status(404).json({ success: false, message: 'Invoice not found' });
     }
-
+ trackEvent(req.user.id, "invoice_deleted", {
+  invoiceId: req.params.id,
+}).catch(() => {});
     res.json({
       success: true,
       message: 'Invoice permanently deleted',
